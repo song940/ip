@@ -9,7 +9,7 @@ const App = () => {
       .then(setAddress)
   });
   return [
-    h('h2', null, "App"),
+    h('h2', null, "My IP Address"),
     h('ul', null, [
       h('li', null, ip)
     ])
