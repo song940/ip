@@ -7,7 +7,7 @@ const App = () => {
     fetch('https://api.lsong.me/ip')
       .then(res => res.text())
       .then(setAddress)
-  });
+  }, []);
   return [
     h('h2', null, "My IP Address"),
     h('ul', null, [
